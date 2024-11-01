@@ -1,0 +1,48 @@
+/**************************
+*                         *
+*      DEFAULT FORM       *
+*                         *
+***************************/
+
+#wpc-main form .form-row::after,
+#wpc-main form .form-row::before{
+    content:' ';
+    display:table
+}
+#wpc-main form .form-row::after{
+    clear:both
+}
+#wpc-main form .form-row label{
+    display: block;
+}
+#wpc-main form .form-row label.checkbox{
+    /*display:inline*/
+}
+#wpc-main form .form-row select{
+    width: 100%;
+}
+#wpc-main form .form-row .input-text{
+    box-sizing:border-box;
+    width:100%
+}
+#wpc-main form .form-row-first,
+#wpc-main form .form-row-last{
+    width:48%;
+    overflow:visible
+}
+#wpc-main form .form-row-first{
+    float:left
+}
+#wpc-main form .form-row-last{
+    float:right
+}
+#wpc-main form .form-row-wide{
+    clear:both
+}
+#wpc-main #payment .form-row select{
+    width:auto
+}
+
+#wpc-main .form-row + #wpc-main .form-row {
+    margin: 0 0 16px;
+}
